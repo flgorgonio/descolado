@@ -33,7 +33,7 @@ void menuSobre(void) {
 	printf("///            = = = = = Sistema de Gestão Escolar = = = = =                ///\n");
 	printf("///                                                                         ///\n");
 	printf("///  Programa exemplo utilizado na disciplina DCT1106 - Programação, para   ///\n");
-	printf("///  fins didáticos de ilustração. O programa contém os principais módulos  ///\n");                                           ///\n");
+	printf("///  fins didáticos de ilustração. O programa contém os principais módulos  ///\n");
 	printf("///  e funcionalidades que serão exigidos na avaliação dos projetos a serem ///\n");
 	printf("///  desenvolvidos pelos alunos ao longo da disciplina. Serve como um guia  ///\n");
 	printf("///  de consulta e referência para o desenvolvidos dos demais projetos.     ///\n");
