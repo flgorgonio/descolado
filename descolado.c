@@ -18,6 +18,10 @@ int main(void) {
 	menuSobre();
   getchar();
   menuAluno();
+  getchar();
+  menuProfessor();
+  getchar();
+  menuTurma();
 	return 0;
 }
 
@@ -85,10 +89,62 @@ void menuAluno(void) {
 
 
 void menuProfessor(void) {
-
+	printf("\n");
+	printf("///////////////////////////////////////////////////////////////////////////////\n");
+	printf("///                                                                         ///\n");
+  printf("///           ===================================================           ///\n");
+  printf("///           = = = = = = = = = = = = = = = = = = = = = = = = = =           ///\n");
+	printf("///           = = = =   Escola de Idiomas Língua Solta    = = = =           ///\n");
+  printf("///           = = = = = = = = = = = = = = = = = = = = = = = = = =           ///\n");
+  printf("///           ===================================================           ///\n");
+	printf("///                 Developed by  @flgorgonio - Sep, 2020                   ///\n");
+	printf("///                                                                         ///\n");
+	printf("///////////////////////////////////////////////////////////////////////////////\n");
+	printf("///                                                                         ///\n");
+  printf("///            = = = = = = = = = = = = = = = = = = = = = = = =              ///\n");
+	printf("///            = = = = = = = =  Menu Professor = = = = = = = =              ///\n");
+  printf("///            = = = = = = = = = = = = = = = = = = = = = = = =              ///\n");
+	printf("///                                                                         ///\n");
+	printf("///            1. Cadastrar um novo professor                               ///\n");
+	printf("///            2. Pesquisar os dados de um professor                        ///\n");
+	printf("///            3. Atualizar o cadastro de um professor                      ///\n");
+	printf("///            4. Excluir um professor do sistema                           ///\n");
+	printf("///            5. Voltar ao menu anterior                                   ///\n");
+	printf("///                                                                         ///\n");
+  printf("///            Escolha a opção desejada:                                    ///\n");
+  printf("///                                                                         ///\n");
+  printf("///                                                                         ///\n");
+	printf("///////////////////////////////////////////////////////////////////////////////\n");
+	printf("\n");
 }
 
 
 void menuTurma(void) {
-
+	printf("\n");
+	printf("///////////////////////////////////////////////////////////////////////////////\n");
+	printf("///                                                                         ///\n");
+  printf("///           ===================================================           ///\n");
+  printf("///           = = = = = = = = = = = = = = = = = = = = = = = = = =           ///\n");
+	printf("///           = = = =   Escola de Idiomas Língua Solta    = = = =           ///\n");
+  printf("///           = = = = = = = = = = = = = = = = = = = = = = = = = =           ///\n");
+  printf("///           ===================================================           ///\n");
+	printf("///                 Developed by  @flgorgonio - Sep, 2020                   ///\n");
+	printf("///                                                                         ///\n");
+	printf("///////////////////////////////////////////////////////////////////////////////\n");
+	printf("///                                                                         ///\n");
+  printf("///            = = = = = = = = = = = = = = = = = = = = = = = =              ///\n");
+	printf("///            = = = = = = = = =  Menu Turma = = = = = = = = =              ///\n");
+  printf("///            = = = = = = = = = = = = = = = = = = = = = = = =              ///\n");
+	printf("///                                                                         ///\n");
+	printf("///            1. Cadastrar uma nova turma                                  ///\n");
+	printf("///            2. Pesquisar os dados de uma turma                           ///\n");
+	printf("///            3. Atualizar o cadastro de uma turma                         ///\n");
+	printf("///            4. Excluir uma turma do sistema                              ///\n");
+	printf("///            5. Voltar ao menu anterior                                   ///\n");
+	printf("///                                                                         ///\n");
+  printf("///            Escolha a opção desejada:                                    ///\n");
+  printf("///                                                                         ///\n");
+  printf("///                                                                         ///\n");
+	printf("///////////////////////////////////////////////////////////////////////////////\n");
+	printf("\n");
 }
