@@ -8,9 +8,9 @@ Disciplina DCT1106 -- Programação
 Projeto Sistema de Gestão Escolar
 Developed by  @flgorgonio - Sep, 2020
 
-= = = = = = = = = = = = = = = = = = = = = = = = = =
-= = = =    Escola de Idiomas Língua Solta   = = = =
-= = = = = = = = = = = = = = = = = = = = = = = = = =
+
+Escola de Idiomas Língua Solta
+
 
 Programa exemplo utilizado na disciplina DCT1106 - 
 Programação, para fins didáticos de ilustração. O 
