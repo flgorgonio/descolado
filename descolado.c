@@ -9,7 +9,6 @@
 
 #include <stdio.h>
 
-
 char menuPrincipal(void);
 void telaSobre(void);
 char menuAluno(void);
@@ -35,7 +34,6 @@ void atualizarTurma(void);
 void excluirTurma(void);
 
 void moduloRelatorio(void);
-
 
 int main(void) {
 	char opcao;
