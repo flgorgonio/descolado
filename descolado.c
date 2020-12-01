@@ -8,6 +8,18 @@
 ///////////////////////////////////////////////////////////////////////////////
 
 #include <stdio.h>
+#include "entradalib.h"
+
+
+typedef struct aluno {
+	long int matricula;
+	char *nome;
+	char *email;
+	char *dataNasc;
+	char *celular;
+};
+
+typedef struct aluno Aluno;
 
 char menuPrincipal(void);
 void telaSobre(void);
@@ -162,7 +174,7 @@ char menuAluno(void) {
 
 
 char menuProfessor(void) {
-  char op;
+	char op;
 	printf("\n");
 	printf("/////////////////////////////////////////////////////////////////////////////\n");
 	printf("///                                                                       ///\n");
@@ -197,7 +209,7 @@ char menuProfessor(void) {
 
 
 char menuTurma(void) {
-  char op;
+	char op;
 	printf("\n");
 	printf("/////////////////////////////////////////////////////////////////////////////\n");
 	printf("///                                                                       ///\n");
@@ -300,9 +312,38 @@ void moduloRelatorio(void) {
 
 
 void cadastrarAluno(void) {
+	Aluno aluno;
 	printf("\n\n\nMódulo cadastrar aluno\n\n\n");
 	printf("\n");
-	printf("\n\n\t\t\t\t<<< Em Desenvolvimento >>>\n\n");
+	printf("/////////////////////////////////////////////////////////////////////////////\n");
+	printf("///                                                                       ///\n");
+	printf("///          ===================================================          ///\n");
+	printf("///          = = = = = = = = = = = = = = = = = = = = = = = = = =          ///\n");
+	printf("///          = = = =   Escola de Idiomas Língua Solta    = = = =          ///\n");
+	printf("///          = = = = = = = = = = = = = = = = = = = = = = = = = =          ///\n");
+	printf("///          ===================================================          ///\n");
+	printf("///                Developed by  @flgorgonio - Sep, 2020                  ///\n");
+	printf("///                                                                       ///\n");
+	printf("/////////////////////////////////////////////////////////////////////////////\n");
+	printf("///                                                                       ///\n");
+	printf("///           = = = = = = = = = = = = = = = = = = = = = = = =             ///\n");
+	printf("///           = = = = = = = = Cadastrar Aluno = = = = = = = =             ///\n");
+	printf("///           = = = = = = = = = = = = = = = = = = = = = = = =             ///\n");
+	printf("///                                                                       ///\n");
+	printf("///           Matrícula: ");
+	scanf("%ld", &aluno.matricula);
+	printf("///           Nome: ");
+	aluno.nome = lerNome();
+	printf("///           E-mail: ");
+	aluno.email = lerEmail();
+	printf("///           Data de Nascimento: ");
+	aluno.dataNasc = lerData();
+	printf("///           Celular: ");
+	aluno.celular = lerFone();
+	printf("///                                                                       ///\n");
+	printf("///                                                                       ///\n");
+	printf("/////////////////////////////////////////////////////////////////////////////\n");
+	printf("\n");
 	printf("\t\t\t>>> Tecle <ENTER> para continuar...\n");
 	getchar();
 }
